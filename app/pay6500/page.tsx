@@ -289,7 +289,7 @@ export default function PayPage() {
         
         <meta property="og:title" content="The Next Chapter 1-YEAR CONTAINER" />
         <meta property="og:description" content="Evidence-based brain training for professional women who want to reduce their drinking by 80 percent." />
-        <meta property="og:image" content="https://emotionalsobrietycoaching.com/TNC1Year.webp" />
+        <meta property="og:image" content="https://emotionalsobrietycoaching.com/Opengraph.png" />
         <meta property="og:url" content="https://emotionalsobrietycoaching.com/pay6500" />
         <meta property="og:type" content="website" />
         
@@ -297,7 +297,7 @@ export default function PayPage() {
         <meta name="twitter:title" content="The Next Chapter 1-YEAR CONTAINER" />
         
         <meta name="twitter:description" content="Evidence-based brain training for professional women who want to reduce their drinking by 80 percent." />
-        <meta name="twitter:image" content="https://emotionalsobrietycoaching.com/TNC1Year.webp" />
+        <meta name="twitter:image" content="https://emotionalsobrietycoaching.com/Opengraph.png" />
         
         <meta name="apple-mobile-web-app-title" content="The Next Chapter 1-YEAR CONTAINER" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
