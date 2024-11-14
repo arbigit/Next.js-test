@@ -14,6 +14,14 @@ import {
 import { loadStripe } from "@stripe/stripe-js"
 import convertToSubcurrency from "@/lib/convertToSubcurrency"
 import { CheckCircle } from "lucide-react"
+import MetaComponent from "../MetaComponent"
+
+const meta = {
+  title: "The Next Chapter 1-YEAR CONTAINER",
+  description:"Evidence-based brain training for professional women who want to reduce their drinking by 80 percent.",
+  imageUrl:"https://emotionalsobrietycoaching.com/Opengraph.png",
+  pageUrl:"https://emotionalsobrietycoaching.com/pay6500"
+}
 
 if (process.env.NEXT_PUBLIC_STRIPE_PUBLIC_KEY === undefined) {
   throw new Error("NEXT_PUBLIC_STRIPE_PUBLIC_KEY is not defined")
@@ -106,6 +114,7 @@ const CheckoutPage = ({ amount }: { amount: number }) => {
   
   return (
     <>
+      <MetaComponent  {...meta}/>
       {loading && (
         <div className="fixed inset-0 bg-gray-500 bg-opacity-75 flex justify-center items-center z-50">
           <div className="bg-white p-6 rounded-lg shadow-lg text-center">
@@ -282,7 +291,7 @@ export default function PayPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 flex flex-col">
-      <Head>
+      {/* <Head>
         <title>The Next Chapter 1-YEAR CONTAINER</title>
         <meta name="description" content="Evidence-based brain training for professional women who want to reduce their drinking by 80 percent." />
         <link rel="canonical" href="https://emotionalsobrietycoaching.com/pay6500" />
@@ -312,7 +321,7 @@ export default function PayPage() {
         <meta name="theme-color" content="#ffffff" />
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
-      
+       */}
       <Navbar />
       
       <main className="flex-grow">
