@@ -19,7 +19,8 @@ export default function RootLayout({
         
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="The Next Chapter 1-YEAR CONTAINER" />
-        
+        <meta property="twitter:url" content="https://the-next-chapter-website.vercel.app/"/>
+        <meta property="twitter:domain" content="the-next-chapter-website.vercel.app"/>
         <meta name="twitter:description" content="Evidence-based brain training for professional women who want to reduce their drinking by 80 percent." />
         <meta name="twitter:image" content="https://emotionalsobrietycoaching.com/Opengraph.png" />
         
