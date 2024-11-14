@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react"
 import Image from "next/image"
 import Link from 'next/link'
-import Head from 'next/head'
+// import Head from 'next/head'
 
 import {
   useStripe,

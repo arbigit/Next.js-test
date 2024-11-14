@@ -1,5 +1,5 @@
 import "./globals.css";
-import MetaComponent from '@/app/MetaComponent'
+
 export default function RootLayout({
   children,
 }: Readonly<{
